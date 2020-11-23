@@ -45,21 +45,21 @@ namespace Horoskop
             };
             grd.Children.Add(ent, 0, 1);
             Grid.SetColumnSpan(ent, 2);
-            //-------------------------------------------------------------------
+            
             // image
             image = new Image();
-            image.Source = "ov.jpg"; //ok
-            image.Source = "tel.jpg"; //ok
-            image.Source = "bliz.jpg";//ok
-            image.Source = "rak.jpg";//ok
-            image.Source = "lev.jpg"; //ok
-            image.Source = "deva.jpg"; //ok
-            image.Source = "vesi.jpg"; //ok
-            image.Source = "skorp.jpg"; //ok
-            image.Source = "strel.jpg"; //ok 
-            image.Source = "koz.jpg"; //ok
-            image.Source = "vodol.jpg"; //ok
-            image.Source = "robi.jpg"; //ok
+            image.Source = "ov.jpg"; 
+            image.Source = "tel.jpg"; 
+            image.Source = "bliz.jpg";
+            image.Source = "rak.jpg";
+            image.Source = "lev.jpg"; 
+            image.Source = "deva.jpg"; 
+            image.Source = "vesi.jpg"; 
+            image.Source = "skorp.jpg"; 
+            image.Source = "strel.jpg";  
+            image.Source = "koz.jpg"; 
+            image.Source = "vodol.jpg"; 
+            image.Source = "robi.jpg"; 
             grd.Children.Add(image, 1, 0);
             Content = grd;
         }
